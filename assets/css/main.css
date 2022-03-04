@@ -2655,7 +2655,7 @@ input[type="radio"] + label:before {
 
 .image {
   border-radius: 0.25em;
-  border: 0;
+  border: 1px solid darkgray;
   display: inline-block;
   position: relative;
 }
@@ -3083,7 +3083,7 @@ header h6 + p {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  min-height: 22.5em;
+  /* min-height: 22.5em; */
 }
 
 body.is-ie .spotlights > section {
@@ -3096,7 +3096,7 @@ body.is-ie .spotlights > section {
   border-radius: 0;
   display: block;
   position: relative;
-  width: 25em;
+  width: 35em;
 }
 
 .spotlights > section > .image img {
