@@ -3083,7 +3083,7 @@ header h6 + p {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  /* min-height: 22.5em; */
+  max-height: 19em;
 }
 
 body.is-ie .spotlights > section {
